@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ul, body, ol, p, .row {
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+header .container {
+    max-width: 1540px;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.innerHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.innerHeaderContainer a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.innerHeaderContainer li:nth-child(even) a {
+    border: 1px solid #cccc;
+    border-top: 0;
+    border-bottom: 0;
+    padding: 0px 18px;
+}
+
+.bannerHome {
+    min-height: 700px;
+    background-size: cover;	
+    display: flex;
+    align-items: center;
+}
+
+.bannerHome .row {
+    align-items: center;
+}
+
+.bannerHome {
+    padding-top: 90px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.innerContainer h2, .innerContainer p, .innerContainer a {
+    max-width: 319px;
+    color: #fff;
+}
+
+.innerContainer h2 {display: block;font-family: 'Bebas Neue', cursive;font-size: 66px;font-weight: 700;}
+.innerContainer h2 span {
+	font-weight: 300;
+}
+.innerContainer p {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+.innerContainer a {
+    background: #487629;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    padding: 12px 40px;
+    font-weight: 500;
+    font-size: 14px;
+    border: 2px solid #487629;
+}
+
+.innerContainer a:hover {
+    background: none;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none !important;
+}
+
+.container {
+    max-width: 1540px;
+    padding: 0px 20px;
+}
+
+.shop {padding: 100px 0px;text-align: center;}
+
+.shop h2 {
+    font-size: 62px;
+    font-weight: 700;
+}
+
+.shop p {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.innerSliderShop p {}
+
+p.contentContainer {
+    opacity: 0.7;
+    font-size: 14px;
+    max-width: 298px;
+    margin: 20px auto;
+}
+
+.innerSliderShop h6 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+p.priceContainer {
+    color: #487629;
+    font-weight: 700;
+}
+
+p.priceContainer span {
+    color: #B1B1B1;
+}
+
+p.offPercentage {
+    color: #E53535;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.shopNow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 20px;
+    border: 2px solid #487629;
+    color: #487629;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+}
