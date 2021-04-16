@@ -672,4 +672,7 @@
 		text-align: center;
 		font-weight: 600;
 	}
+	section.our-commitments-sec .acm-quicklinks p {
+		margin: 10px 30px;
+	}
 }
