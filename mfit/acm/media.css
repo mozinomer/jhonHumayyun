@@ -492,4 +492,42 @@
 	.acm-staff-flex {
 		align-items: flex-start;
 	}
+	section.our-commitments-sec {
+		padding: 20px 0px;
+	}
+
+	.acm-quicklinks p {
+		margin: 10px 0px;
+	}
+
+	section.childerenNewsection {
+		padding: 20px 0px;
+		width: 100%;
+	}
+
+	section.childerenNewsection h2 {
+		font-size: 22px;
+		font-weight: 700;
+		max-width: 100%;
+		margin: 20px 0px;
+	}
+
+	.imageWrapperNewSection img {
+		max-width: 200px;
+		margin: 20px auto;
+	}
+
+	section.childerenNewsection .row {
+		margin-bottom: 0px;
+		padding-bottom: 30px;
+	}
+
+	.home-banner-sec .slick-arrow {
+		width: 20px;
+		height: 20px;
+	}
+
+	.home-banner-sec .slick-arrow {
+		background-size: 8px;
+	}
 }
