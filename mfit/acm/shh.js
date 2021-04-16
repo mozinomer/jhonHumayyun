@@ -27,3 +27,8 @@ $('.news-blog-slider').slick({
   },
   ]
 });   
+
+$('.hamburger').click( function(e) {
+  $(this).toggleClass('active');
+  $('.mainMenuElement').slideToggle();
+})
