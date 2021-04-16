@@ -530,4 +530,146 @@
 	.home-banner-sec .slick-arrow {
 		background-size: 8px;
 	}
+	section.blog-tabbing-sec {
+		padding: 20px 0px;
+	}
+
+	div#nav-tab {
+		flex-wrap: nowrap;
+		/* width: 1000%; */
+		/* overflow: auto; */
+	}
+
+	nav.blog-tabbing {
+		overflow: auto;
+	}
+
+	.nav-tabs .nav-link {
+		min-width: 170px;
+		font-size: 12px;
+		line-height: normal;
+		margin-bottom: 0px;
+		padding-bottom: 6px;
+		text-align: center;
+	}
+
+	.feature-head h2 {
+		font-size: 22px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-weight: 700;
+	}
+
+	.blog-sec-box h2 {
+		font-size: 17px;
+		line-height: 26px;
+		margin-bottom: 20px;
+	}
+	.board-of-director {
+		width: 100%;
+	}
+
+	.directors-img {
+		max-width: 180px;
+		margin: 20px auto;
+	}
+
+	.board-of-director {
+		text-align: center;
+	}
+
+	section.acm-staff-sec .acm-staff-title h2 {
+		text-align: center;
+	}
+	.leftContactInfo h2 {
+		font-size: 22px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+
+	.leftContactInfo h6 {
+		font-size: 11px;
+		line-height: normal;
+	}
+
+	.formContainerConatct {
+		padding: 10px 0px 0px;
+	}
+	.donate-to-title h2 {
+		font-size: 22px;
+		max-width: 100%;
+	}
+
+	.gift-is-used h2 {
+		font-size: 22px;
+	}
+
+	.gift-is-box h2 {
+		font-size: 22px;
+		text-align: center;
+		margin: 20px 0px;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 0px;
+	}
+
+	.gift-is-box p {
+		text-align: justify;
+		text-align-last: center;
+	}
+
+	.donate-to-text h2 {
+		font-size: 22px;
+		text-align: center;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	.donate-to-text p {
+		text-align: justify;
+		padding: 0px 10px;
+		text-align-last: center;
+	}
+
+	.donate-to-text h4 {
+		font-size: 22px;
+		text-align: center;
+		font-weight: 700;
+	}
+
+	.donate-option {
+		min-height: auto;
+	}
+
+	.donate-option h4 {
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.donate-option p {
+		font-size: 14px;
+		margin: 10px 0px 10px;
+		padding: 0px;
+	}
+
+	.donate-option ul li {
+		font-size: 12px;
+		margin-bottom: 9px;
+		font-weight: 500;
+	}
+	.meusumPage h2 {
+		font-size: 22px;
+		text-align: center;
+		font-weight: 700;
+	}
+
+	.formContainerNew {
+		margin: 20px 0px;
+		padding: 30px 10px;
+	}
+
+	.formContainerNew h3 {
+		text-align: center;
+		font-weight: 600;
+	}
 }
