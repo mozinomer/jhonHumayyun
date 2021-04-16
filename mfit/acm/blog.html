@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>blog</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- addding the cdn's -->
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+	crossorigin="anonymous"></script>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+	integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+	<script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js"></script>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./media.css">
+</head>
+<body>
+
+
+	<header>
+		<div class="containerMax">
+			<div class="headerInenrContainer">
+				<div class="logoContainer">
+					<img src="./images/1.svg">
+				</div>
+				<div class="listItemAndSearchContainer">
+					<ul>
+						<li><a href="#">Find a Children’s Museum</a></li>
+						<li><a href="#">ACM Portal Login</a></li>
+						<li><a href="#">ACM Groupsite</a></li>
+					</ul>
+					<div class="inputContainerSearchHeader">
+						<input type="text" name="" placeholder="Search">
+						<button type="submit"><img src="./images/2.svg"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mainMenuElement">
+			<div class="container">
+				<div class="listItemsMainMenu">
+					<ul class="mainMenu">
+						<li><a href="#">About ACM</a></li>
+						<li><a href="#">About Children's Museums</a></li>
+						<li><a href="#">Elevating the Field</a></li>
+						<li><a href="#">Membership</a></li>
+						<li><a href="#">Conferences and Professional Development</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+					<ul class="socialList">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="blog-tabbing-sec">
+		<div class="container">
+			<div class="blog-title">
+				<h2>Blog</h2>
+			</div>
+			<div class="col-md-12">
+				<nav class="blog-tabbing">
+				  	<div class="nav nav-tabs" id="nav-tab" role="tablist">
+				    	<a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">ACM Updates</a>
+				    	<a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Views from the Field</a>
+				    	<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Resources for Families</a>
+				    	<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Project Spotlights</a>
+				  	</div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+						<div class="feature-head">
+							<h2>Featured</h2>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="#">
+								<div class="blog-sec-box">
+									<img src="./images/bl1.png">
+									<p>Featured</p>
+									<h2>To create our vision of a world that honors all children and respects the diverse ways in…</h2>
+								</div>
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="#">
+								<div class="blog-sec-box">
+									<img src="./images/bl2.png">
+									<p>Featured</p>
+									<h2>Museums Mobilize to Fight Food Insecurity during COVID-19</h2>
+								</div>
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="#">
+								<div class="blog-sec-box">
+									<img src="./images/bl3.png">
+									<p>Featured</p>
+									<h2>New Issue of Hand to Hand: Forged in Fire – New Models</h2>
+								</div>
+								</a>
+							</div>
+						</div>
+						<div class="feature-head">
+							<h2>Newest</h2>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<a href="#">
+								<div class="blog-sec-box">
+									<img src="./images/bl4.png">
+									<p>Featured</p>
+									<h2>Museums Mobilize to Fight Food Insecurity during COVID-19</h2>
+								</div>
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="#">
+								<div class="blog-sec-box">
+									<img src="./images/bl5.png">
+									<p>Featured</p>
+									<h2>New Issue of Hand to Hand: Forged in Fire – New Models</h2>
+								</div>
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="#">
+								<div class="blog-sec-box">
+									<img src="./images/bl6.png">
+									<p>Featured</p>
+									<h2>To create our vision of a world that honors all children and respects the diverse ways in…</h2>
+								</div>
+								</a>
+							</div>
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl7.png">
+									<p>Featured</p>
+									<h2>Doubling Down on DEI</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl8.png">
+									<p>Featured</p>
+									<h2>Learning through and about Social Media</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl9.png">
+									<p>Featured</p>
+									<h2>Taking Science Learning to New Places and People</h2>
+								</div>
+							</div>
+						</div>
+						<div class="load-more-btn">
+							<a href="#" class="read-more">Load More Posts</a>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						<div class="feature-head">
+							<h2>Views from the Field</h2>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl1.png">
+									<p>Featured</p>
+									<h2>To create our vision of a world that honors all children and respects the diverse ways in…</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl2.png">
+									<p>Featured</p>
+									<h2>Museums Mobilize to Fight Food Insecurity during COVID-19</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl3.png">
+									<p>Featured</p>
+									<h2>New Issue of Hand to Hand: Forged in Fire – New Models</h2>
+								</div>
+							</div>
+						</div>
+						<div class="load-more-btn">
+							<a href="#" class="read-more">Load More Posts</a>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"><div class="feature-head">
+							<h2>Newest</h2>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl4.png">
+									<p>Featured</p>
+									<h2>Museums Mobilize to Fight Food Insecurity during COVID-19</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl5.png">
+									<p>Featured</p>
+									<h2>New Issue of Hand to Hand: Forged in Fire – New Models</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl6.png">
+									<p>Featured</p>
+									<h2>To create our vision of a world that honors all children and respects the diverse ways in…</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl7.png">
+									<p>Featured</p>
+									<h2>Doubling Down on DEI</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="blog-sec-box">
+									<img src="./images/bl8.png">
+									<p>Featured</p>
+									<h2>Learning through and about Social Media</h2>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<a href="#">
+								<div class="blog-sec-box">
+									<img src="./images/bl9.png">
+									<p>Featured</p>
+									<h2>Taking Science Learning to New Places and People</h2>
+								</div>
+								</a>
+							</div>
+						</div>
+						<div class="load-more-btn">
+							<a href="#" class="read-more">Load More Posts</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footerTop">
+			<div class="footerContainer">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="logoContainerFooter">
+							<img src="./images/3.svg">
+							<p>A children’s museum is defined as a nonprofit educational and cultural institution committed to serving the needs and interests of children by providing exhibits.</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="footerContainerLIst">
+							<h6>Quick Links</h6>
+							<ul>
+								<li><a href="#">About Children's Museums</a></li>
+								<li><a href="#">Elevating the Field</a></li>
+								<li><a href="#">Membership</a></li>
+								<li><a href="#">Conferences and Professional Development</a></li>
+								<li><a href="#">About ACM</a></li>
+								<li><a href="#">Blog</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="rightContainerFooter">
+							<h5>Take advantage of expert knowledge</h5>
+							<p>Feel free to get in touch with us via email or phone</p>
+							<ul>
+								<li>
+									<h6>Call Now!</h6>
+									<a href="tel:(852)112-8455">(852)112-8455</a>
+								</li>
+								<li>
+									<h6>Email Us Now!</h6>
+									<a href="mailto:alex.reid@mail.com">alex.reid@mail.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="copyRight">
+					<p>© Copyright 2021 Association of Children’s Museums. All rights reserved. </p>
+					<ul>
+						<li><a href="#">Contact </a></li>
+						<li><a href="#">| Site Map </a></li>
+						<li><a href="#">| Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="./shh.js"></script>
+</html>

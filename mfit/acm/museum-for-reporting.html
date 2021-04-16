@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>museum</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- addding the cdn's -->
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+	crossorigin="anonymous"></script>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+	integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+	<script type="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.carousel.min.css"></script>
+	<script type="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/assets/owl.theme.default.css"></script>
+	<script src="https://alexandrebuffet.fr/codepen/slider/slick-animation.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js"></script>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./media.css">
+</head>
+<body>
+	<header>
+		<div class="containerMax">
+			<div class="headerInenrContainer">
+				<div class="logoContainer">
+					<img src="./images/1.svg">
+				</div>
+				<div class="listItemAndSearchContainer">
+					<ul>
+						<li><a href="#">Find a Children’s Museum</a></li>
+						<li><a href="#">ACM Portal Login</a></li>
+						<li><a href="#">ACM Groupsite</a></li>
+					</ul>
+					<div class="inputContainerSearchHeader">
+						<input type="text" name="" placeholder="Search">
+						<button type="submit"><img src="./images/2.svg"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mainMenuElement">
+			<div class="container">
+				<div class="listItemsMainMenu">
+					<ul class="mainMenu">
+						<li><a href="#">About ACM</a></li>
+						<li><a href="#">About Children's Museums</a></li>
+						<li><a href="#">Elevating the Field</a></li>
+						<li><a href="#">Membership</a></li>
+						<li><a href="#">Conferences and Professional Development</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+					<ul class="socialList">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="meusumPage">
+		<div class="container">
+			<h2>Museums For All Reporting</h2>
+			<div class="formContainerNew">
+				<h3>Museums for All Reporting</h3>
+				<form>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="inputContainer">
+								<label>
+									Museum Name*
+								</label>
+								<input type="text" name="" placeholder="if ther is any">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="inputContainer">
+								<label>
+									Period*
+								</label>
+								<input type="text" name="" placeholder="January 01 - March 31">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="inputContainer">
+								<label>
+									Year*
+								</label>
+								<input type="text" name="" placeholder="if ther is any">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="inputContainer">
+								<label>
+									Total Attendance for the quarter*
+								</label>
+								<input type="text" name="" placeholder="if ther is any">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="inputContainer">
+								<label>
+									Museums for All Attendance for the quarter*
+								</label>
+								<input type="text" name="" placeholder="if ther is any">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="inputContainer">
+								<label>
+									List any new sponsors confirmed in the last three months for Museums for All.
+								</label>
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="inputContainer">
+								<label>
+									List any new sponsors confirmed in the last three months for Museums for All.
+								</label>
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="inputContainer">
+								<label>
+									List any new sponsors confirmed in the last three months for Museums for All.
+								</label>
+								<textarea></textarea>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="inputContainer">
+								<button type="submit" class="read-more">Submit Now</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="museum-p">
+				<p>This information collection is being conducted in conformance with the Museum and Library Services Act of 2010, as amended. IMLS intends to make institutional participation information provided through this form publicly available. However, information specifically identifying any individual will be protected from public disclosure to the extent permitted by law.</p>
+				<p>The OMB control number, 3137-0089, expires on 03/31/2024. The Institute of Museum and Library Services may not conduct or sponsor, and a person is not required to respond to, an information collection unless it displays a currently valid OMB control number.</p>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="footerTop">
+			<div class="footerContainer">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="logoContainerFooter">
+							<img src="./images/3.svg">
+							<p>A children’s museum is defined as a nonprofit educational and cultural institution committed to serving the needs and interests of children by providing exhibits.</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="footerContainerLIst">
+							<h6>Quick Links</h6>
+							<ul>
+								<li><a href="#">About Children's Museums</a></li>
+								<li><a href="#">Elevating the Field</a></li>
+								<li><a href="#">Membership</a></li>
+								<li><a href="#">Conferences and Professional Development</a></li>
+								<li><a href="#">About ACM</a></li>
+								<li><a href="#">Blog</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-5">
+						<div class="rightContainerFooter">
+							<h5>Take advantage of expert knowledge</h5>
+							<p>Feel free to get in touch with us via email or phone</p>
+							<ul>
+								<li>
+									<h6>Call Now!</h6>
+									<a href="tel:(852)112-8455">(852)112-8455</a>
+								</li>
+								<li>
+									<h6>Email Us Now!</h6>
+									<a href="mailto:alex.reid@mail.com">alex.reid@mail.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="copyRight">
+					<p>© Copyright 2021 Association of Children’s Museums. All rights reserved. </p>
+					<ul>
+						<li><a href="#">Contact </a></li>
+						<li><a href="#">| Site Map </a></li>
+						<li><a href="#">| Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+<script type="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.js"></script>
+<script type="https://cdn.boomcdn.com/libs/owl-carousel/2.3.4/owl.carousel.min.js"></script>
+<script type="text/javascript" src="./shh.js"></script>
+</html>
