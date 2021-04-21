@@ -120,3 +120,111 @@ a {text-decoration: none;}
 .testimonial {
     padding: 70px 0px 0px;
 }
+.col-md-6 {
+    flex: 0 50%;
+    padding: 0px 20px;
+    max-width: 45%;
+}
+
+.aboutSectoin .row {
+    align-items: center;
+}
+
+.aboutSectoin .row {
+    /* margin: 0px -20px; */
+}
+
+.productContainer .row {
+    /* justify-content: space-between; */
+}
+
+.col-md-3 {
+    flex: 0 25%;
+    max-width: 22%;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.productContainer .row {
+    margin: 0px -20px;
+}
+
+.lightWightSection {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.lightWightSection .container {
+    margin: 0px;
+    width: 100%;
+    color: #fff;
+}
+
+.contentLIghtSection h6 {
+    font-size: 19px;
+    margin: 0px;
+    border-left: 2px solid #1589CD;
+    padding-left: 16px;
+}
+
+.contentLIghtSection h2 {
+    font-weight: 600;
+    max-width: 350px;
+    font-size: 42px;
+    line-height: 61px;
+}
+
+.watchVideo .container {
+    position: relative;
+    max-width: 1440px;
+}
+
+.watchVideo .container:after {content: "";display: block;width: 90%;height: 100%;background: #F3F9FD;position: absolute;left: 0;top: 0;bottom: 0;z-index: -1;width: 55%;}
+
+.contnetLeftSideWatchVideo {
+    padding: 100px;
+}
+
+.watchVideo .row {
+    align-items: center;
+}
+
+.videoCOntainerWatchVideo {
+    min-height: 436px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 60px 0px;
+}
+
+.watchVideo {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watchVideo h2 {
+    color: #1589CD;
+    font-size: 42px;
+}
+
+.watchVideo h6 {border-left: 2px solid #1589CD;font-size: 19px;padding-left: 15px;font-weight: 700;}
+
+.accompnay {
+    text-align: center;
+}
+
+.accompnay h2 {
+    color: #1589CD;
+    font-size: 42px;
+    max-width: 800px;
+    margin: 40px auto 100px;
+    font-weight: 700;
+}
+
+.accompnay img {
+    max-width: 60%;
+}
