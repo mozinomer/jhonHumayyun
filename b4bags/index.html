@@ -1,75 +1,357 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>ALT BIONICS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+        integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/./media.css">
+    <title>Document</title>
 </head>
+
 <body>
-
-
-<header>
-    <div class="container">
-        <div class="innerContainer">
-            <div class="logoContainer">
-                <img src="./images/1.svg">
+    <section class="homepage-banner">
+        <div class="your-style">
+            <div class="tabbing-pic">
+                <div class="container1">
+                    <div class="tabbing">
+                        <div class="company-logo">
+                            <img src="./images/company-logo.png" alt="">
+                        </div>
+                        <h1>Your Style Quotient</h1>
+                        <ul class="tabs">
+                            <li class="tab-link current" data-tab="tab-1">Handbags</li>
+                            <li class="tab-link" data-tab="tab-2">Wallets</li>
+                            <li class="tab-link" data-tab="tab-3">Mix and Match</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="rightMenuContainer">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Donate</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Invest</a></li>
-                    <li><a href="#">Bionics Engineering</a></li>
-                </ul>
-                <div class="serachContainer">
-                    <div class="inputCOntainerSearhc">
-                        <input type="text" name="" placeholder="Search Anything">
-                        <button class="searchIcon"></button>
+            <div class="tabbing-for-pics">
+                <div id="tab-1" class="tab-content current">
+                    <div class="text-on-absolute">
+                        <img src="./images/girl1.png" alt="">
+                        <div class="text">
+                            <h4>Handbags</h4>
+                        </div>
+                    </div>
+                    <div class="text-on-absolute">
+                        <img src="./images/girl2.png" alt="">
+                        <div class="text">
+                            <h4>Wallets</h4>
+                        </div>
+                    </div>
+                    <div class="text-on-absolute">
+                        <img src="./images/girl3.png" alt="">
+                        <div class="text">
+                            <h4>Mix & Match</h4>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-2" class="tab-content">
+                    <div class="text-on-absolute">
+                        <img src="./images/girl3.png" alt="">
+                        <div class="text">
+                            <h4>Mix & Match</h4>
+                        </div>
+                    </div>
+                    <div class="text-on-absolute">
+                        <img src="./images/girl2.png" alt="">
+                        <div class="text">
+                            <h4>Wallets</h4>
+                        </div>
+                    </div>
+                    <div class="text-on-absolute">
+                        <img src="./images/girl1.png" alt="">
+                        <div class="text">
+                            <h4>Handbags</h4>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-3" class="tab-content">
+                    <div class="text-on-absolute">
+                        <img src="./images/girl1.png" alt="">
+                        <div class="text">
+                            <h4>Handbags</h4>
+                        </div>
+                    </div>
+                    <div class="text-on-absolute">
+                        <img src="./images/girl3.png" alt="">
+                        <div class="text">
+                            <h4>Mix & Match</h4>
+                        </div>
+                    </div>
+                    <div class="text-on-absolute">
+                        <img src="./images/girl2.png" alt="">
+                        <div class="text">
+                            <h4>Wallets</h4>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
-
-<div class="desktopBanner">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="contentContainer">
-                    <h2>Advanced Prostheses Made Affordable</h2>
-                    <p>We know we can build it for less, so we do.</p>
-                    <a href="#" class="contactButtonBanner"><span></span>Contact Us</a>
+    </section>
+    <section class="bags">
+        <div class="container">
+            <div class="Rare-Exquisite">
+                <div class="bag-slider">
+                    <img src="./images/bag.png" alt="">
+                    <img src="./images/bag.png" alt="">
+                    <img src="./images/bag.png" alt="">
+                </div>
+                <div class="rare">
+                    <h1 class="same-heading">Rare & Exquisite</h1>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum.</p>
+                    <a href="#" class="same-buy">Buy Now <img src="./images/right-arrow.png" alt=""></a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </section>
+    <section class="bag-sell">
+        <div class="container">
+            <div class="bags-for-sell">
+                <h1 class="same-heading lines">Popular Handbags</h1>
+                <div class="popular-handbag">
+                    <div class="handbags">
+                        <div class="add-to-cart">
+                            <img src="./images/brown.png" alt="">
+                            <div class="appear-hover">
+                                <a href="#">Add To Cart</a>
+                            </div>
+                        </div>
+                        <p>Black & Gold Portofino Bag</p>
+                        <span class="price">$50.00</span>
+                    </div>
+                    <div class="handbags">
+                        <div class="add-to-cart">
+                            <img src="./images/red.png" alt="">
+                            <div class="appear-hover">
+                                <a href="#">Add To Cart</a>
+                            </div>
+                        </div>
+                        <p>Black & Gold Portofino Bag</p>
+                        <span class="price">$50.00</span>
+                    </div>
+                    <div class="handbags">
+                        <div class="add-to-cart">
+                            <img src="./images/brown.png" alt="">
+                            <div class="appear-hover">
+                                <a href="#">Add To Cart</a>
+                            </div>
+                        </div>
+                        <p>Black & Gold Portofino Bag</p>
+                        <span class="price">$50.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fance-box">
+        <div class="play-video" style="background-image: url(./images/fance-box.png);">
+            <div class="play-button">
+                <a data-fancybox="video" href="https://youtu.be/yAoLSRbwxL8">
+                    <img src="./images/Polygon.png" alt="">
+                </a>
+            </div>
+        </div>
 
+    </section>
+    <section class="bags">
+        <div class="container">
+            <div class="Rare-Exquisite reverse">
+                <div class="bag-slider">
+                    <img src="./images/blackhandbag.png" alt="">
+                    <img src="./images/blackhandbag.png" alt="">
+                    <img src="./images/blackhandbag.png" alt="">
+                </div>
+                <div class="rare">
+                    <h1 class="same-heading">Rare & Exquisite</h1>
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum.</p>
+                    <a href="#" class="same-buy">Buy Now <img src="./images/right-arrow.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bag-sell">
+        <div class="container">
+            <div class="bags-for-sell">
+                <h1 class="same-heading lines">Wallets For You</h1>
+                <div class="popular-handbag">
+                    <div class="handbags">
+                        <div class="add-to-cart">
+                            <img src="./images/redhand.png" alt="">
+                            <div class="appear-hover">
+                                <a href="#">Add To Cart</a>
+                            </div>
+                        </div>
+                        <p>Black & Gold Portofino Bag</p>
+                        <span class="price">$50.00</span>
+                    </div>
+                    <div class="handbags">
+                        <div class="add-to-cart">
+                            <img src="./images/redhand.png" alt="">
+                            <div class="appear-hover">
+                                <a href="#">Add To Cart</a>
+                            </div>
+                        </div>
+                        <p>Black & Gold Portofino Bag</p>
+                        <span class="price">$50.00</span>
+                    </div>
+                    <div class="handbags">
+                        <div class="add-to-cart">
+                            <img src="./images/bluehand.png" alt="">
+                            <div class="appear-hover">
+                                <a href="#">Add To Cart</a>
+                            </div>
+                        </div>
+                        <p>Black & Gold Portofino Bag</p>
+                        <span class="price">$50.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fabulous girl" style="background-image: url(./images/greybag.png);">
+        <div class="container">
+            <div class="every-need">
+                <h1>Fabulous for <br>
+                    500 and Under</h1>
+                <p>Uniquely catering to your every need</p>
+                <a href="#" class="same-buy">Buy Now <img src="./images/right-arrow.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section class="stay-with-us">
+        <div class="conatiner">
+            <h1 class="same-heading lines">Get In Touch With Us</h1>
+            <div class="get-in-touch">
+                <div class="through-media">
+                    <img src="./images/zeny.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                        ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+                        sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                    <div class="call-us">
 
-
-
-
-
-
-
-
-
+                        <span>Give us a call at </span>
+                        <a href="tel:1-877-900-8244 ">1-877-900-8244 </a>
+                        <a href="tel:1-678-222-3411">1-678-222-3411</a>
+                    </div>
+                    <div class="mail-us">
+                        <span>Or email us at </span>
+                        <a href="mailto:info@vibe.com  ">info@vibe.com </a>
+                        <a href="mailto:sales@vibe.com">sales@vibe.com</a>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="through-message">
+                    <form action="">
+                        <div class="email">
+                            <label for="">Email <span>*</span> </label>
+                            <input type="email" placeholder="Enter your email">
+                        </div>
+                        <div class="know-us">
+                            <label for="">Where did you hear about us?</label>
+                            <select name="cars" id="cars">
+                                <option value="volvo">Choose one</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                            </select>
+                        </div>
+                        <div class="message">
+                            <label for="">Message</label>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Enter your email"></textarea>
+                        </div>
+                        <div class="product-interset">
+                            <p>Products of Interest</p>
+                            <div class="checkbox">
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"> Rare & Exquisite </label>
+                            </div>
+                            <div class="checkbox">
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2"> Handbags </label>
+                            </div>
+                            <div class="checkbox">
+                            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                            <label for="vehicle3"> Wallets </label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                                <label for="vehicle3"> Mix & Match </label>
+                                </div>
+                        </div>
+                        <div class="checkbox-button">
+                            <button>Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fabulous men" style="background-image: url(./images/men.png);">
+            <div class="every-need">
+                <h1>Men’s Coming Soon</h1>
+                <p>Uniquely catering to your every need</p>
+                <a href="#" class="same-buy">Buy Now <img src="./images/right-arrow.png" alt=""></a>
+        </div>
+    </section>
+    <footer >
+        <div class="footer-top">
+            <div class="container">
+                <div class="Newsletter-followus">
+                    <div class="Newsletter-Subscription">
+                        <label for="">Newsletter Subscription</label>
+                        <div class="your-email">
+                            <input type="email" name="" placeholder="Enter your email">
+                            <button>
+                                <img src="./images/right.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="follow-us">
+                        <span>Follow Us</span>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+        integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"
+        integrity="sha512-j7/1CJweOskkQiS5RD9W8zhEG9D9vpgByNGxPIqkO5KrXrwyDAroM9aQ9w8J7oRqwxGyz429hPVk/zR6IOMtSA=="
+        crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
 </body>
-<script src="./lmao.js"></script>
+
 </html>
