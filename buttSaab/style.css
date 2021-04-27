@@ -1,4 +1,4 @@
-body, ol, ul, p, {
+body, ol, ul, p, .row {
 	list-style: none;
 	margin: 0px;
 	padding: 0px;
@@ -23,46 +23,46 @@ img {
 	src: url('./fonts/Sk-Modernist-Regular.otf');
 }
 .leftBOxContainerSection2 {
-    background-size: 100%;
+	background-size: 100%;
 }
 
 .boxCOntainerSection1 {
-    background: #fff;
-    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
-    max-width: 300px;
-    padding: 20px;
-    margin-bottom: 20px;
+	background: #fff;
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+	max-width: 300px;
+	padding: 20px;
+	margin-bottom: 20px;
 }
 
 .boxCOntainerSection1 h3 {
-    font-size: 20px;
-    font-family: ModernistB;
+	font-size: 20px;
+	font-family: ModernistB;
 }
 
 .boxCOntainerSection1 p {
-    font-size: 14px;
-    line-height: 22px;
-    color: #272727;
-    font-family: ModernistR;
+	font-size: 14px;
+	line-height: 22px;
+	color: #272727;
+	font-family: ModernistR;
 }
 
 .exploreYourworld {
-    padding: 0px 20px;
-    max-width: 544px;
-    margin: auto;
+	padding: 0px 20px;
+	max-width: 544px;
+	margin: auto;
 }
 
 .exploreYourworld h2 {
-    font-size: 36px;
-    font-weight: 600;
-    font-family: ModernistB;
-    margin-bottom: 20px;
+	font-size: 36px;
+	font-weight: 600;
+	font-family: ModernistB;
+	margin-bottom: 20px;
 }
 
 .exploreYourworld p {
-    font-size: 16px;
-    font-family: ModernistR;
-    line-height: 26px;
+	font-size: 16px;
+	font-family: ModernistR;
+	line-height: 26px;
 }
 .alignCenter {
 	align-items: center;
@@ -73,126 +73,182 @@ img {
 	padding-left: 15%;
 }
 .section3 .exploreYourworld {
-    margin-left: 0px;
+	margin-left: 0px;
 }
 .section2 .container {
-    max-width: 1640px;
-    padding: 0px 5%;
+	max-width: 1640px;
+	padding: 0px 5%;
 }
 
 .leftBOxContainerSection2 {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding: 0px 70px 30px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 0px 70px 30px;
 }
 .boxCOntainerSection1.firstItem {
-    margin-top: 70px;
+	margin-top: 70px;
 }
 
 .boxCOntainerSection1 img {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 .imageWrapperCOntainerSection3 {
-    min-height: 620px;
-    background-repeat: no-repeat;
+	min-height: 620px;
+	background-repeat: no-repeat;
 }
 .section4 .imageWrapperCOntainerSection3 img {
-    width: 60%;
-    margin-top: -300px;
-    margin-left: auto;
-    margin-right: auto;
+	width: 60%;
+	margin-top: -300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .section4 .imageWrapperCOntainerSection3 {
-    padding-top: 150px;
+	padding-top: 150px;
 }
 
 .section4 {
-    padding: 200px 0px 100px 0px;
+	padding: 200px 0px 100px 0px;
 }
 .imageMobileWrapper {
-    display: flex;
-    align-items: center;
-    max-width: max-content;
+	display: flex;
+	align-items: center;
+	max-width: max-content;
 }
 
 .imageMobileWrapper img:first-child, .imageMobileWrapper img:last-child {
-    /* position: absolute; */
-    /* z-index: -1; */
+	/* position: absolute; */
+	/* z-index: -1; */
 }
 
 .imageMobileWrapper {
-    margin: auto;
-    position: relative;
-    max-width: 940px;
-    margin: auto;
+	margin: auto;
+	position: relative;
+	max-width: 940px;
+	margin: auto;
 }
 
 .imageMobileWrapper img:first-child {
-    /* left: -230px; */
+	/* left: -230px; */
 }
 
 .imageMobileWrapper img:last-child {
-    right: -240px;
+	right: -240px;
 }
 
 .section5 {
-    position: relative;
-    padding-bottom: 40px;
+	position: relative;
+	padding-bottom: 40px;
 }
 
 .section5::after {content: "";display: block;width: 100%;height: 50%;background: url('./images/12.png');position: absolute;bottom: 0;background-size: cover;z-index: -1;}
 
 .contentstatus {
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
 }
 
 .contentstatus {
-    max-width: 900px;
-    /* margin: 40px auto; */
-    margin: auto;
-    position: relative;
-    /* display: block; */
+	max-width: 900px;
+	/* margin: 40px auto; */
+	margin: auto;
+	position: relative;
+	/* display: block; */
 }
 
 .contentstatus img {
-    max-width: 80%;
-    margin: 0px 10px;
+	max-width: 80%;
+	margin: 0px 10px;
 }
 
 .contentSection5 {
-    text-align: center;
-    color: #fff;
-    position: relative;
-    max-width: 900px;
-    margin: auto;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	max-width: 900px;
+	margin: auto;
 }
 
 .contentSection5 h3 {
-    font-weight: 700;
-    font-size: 32px;
-    font-family: ModernistB;
-    margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 32px;
+	font-family: ModernistB;
+	margin-bottom: 20px;
 }
 
 .contentSection5 p {
-    max-width: 750px;
-    margin: 20px auto;
-    font-family: ModernistR;
-    /* font-family: ModernistMono; */
-    line-height: 26px;
-    color: #FCFCFC;
+	max-width: 750px;
+	margin: 20px auto;
+	font-family: ModernistR;
+	/* font-family: ModernistMono; */
+	line-height: 26px;
+	color: #FCFCFC;
 }
 
 .imageMobileWrapper img:nth-child(2) {
-    z-index: 2;
-    position: relative;
+	z-index: 2;
+	position: relative;
 }
 .section5 {}
 
 .contentstatus img {
-    width: 100%;
-    max-width: 200px;
+	width: 100%;
+	max-width: 200px;
+}
+.imageBanner {
+    max-width: 900px;
+    margin: auto;
+}
+
+.bannerContainer {
+    background-size: cover;
+    /* display: flex; */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    padding: 100px 0px 0px;
+    color: #fff;
+}
+
+.innerContainerBanner {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.innerContainerBanner h2 {
+    font-family: ModernistB;
+    font-size: 39px;
+    margin-bottom: 40px;
+}
+
+.contentSection5 {
+    margin: 50px auto 0px;
+}
+
+img.voiceOver {
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    width: 120px;
+}
+
+.imagevoiceWrapper {
+    position: relative;
+}
+
+.section6 .container {
+    max-width: 1640px;
+    padding: 0px 40px;
+}
+
+.section6 .row {
+    align-items: center;
+}
+
+.section6 {
+    padding: 130px 0px;
+}
+body.homePageTemplate {
+    overflow-x: hidden !important;
 }
