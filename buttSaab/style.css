@@ -1,0 +1,62 @@
+body, ol, ul, p, {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: ModernistB;
+	src: url('./fonts/Sk-Modernist-Bold.otf');
+}
+@font-face {
+	font-family: ModernistMono;
+	src: url('./fonts/Sk-Modernist-Mono.otf');
+}
+@font-face {
+	font-family: ModernistR;
+	src: url('./fonts/Sk-Modernist-Regular.otf');
+}
+.leftBOxContainerSection2 {
+    background-size: 100%;
+}
+
+.boxCOntainerSection1 {
+    background: #fff;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    max-width: 300px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.boxCOntainerSection1 h3 {
+    font-size: 20px;
+    font-family: ModernistB;
+}
+
+.boxCOntainerSection1 p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #272727;
+    font-family: ModernistR;
+}
+
+.section2 .row {
+    align-items: center;
+}
+
+.exploreYourworld {
+    padding: 0px 20px;
+}
+
+.exploreYourworld h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: ModernistB;
+    margin-bottom: 20px;
+}
+
+.exploreYourworld p {
+    font-size: 14px;
+    font-family: ModernistR;
+    line-height: 22px;
+}
