@@ -71,17 +71,20 @@ img {
 	max-width: 1640px;
 	margin-right: 0px;
 	padding-left: 15%;
+	width: 100%;
+	margin: auto;
+	animation: ;
 }
 .section3 .exploreYourworld {
 	margin-left: 0px;
 }
 .section2 .container {
 	max-width: 1640px;
-	padding: 0px 5%;
+	padding: 0px 3%;
 }
 
 .leftBOxContainerSection2 {
-	background-size: 100%;
+	background-size: contain;
 	background-repeat: no-repeat;
 	padding: 0px 70px 30px;
 }
@@ -97,14 +100,15 @@ img {
 	background-repeat: no-repeat;
 }
 .section4 .imageWrapperCOntainerSection3 img {
-	width: 60%;
-	margin-top: -300px;
+	width: 80%;
+	margin-top: -311px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .section4 .imageWrapperCOntainerSection3 {
 	padding-top: 150px;
+	background-size: contain;
 }
 
 .section4 {
@@ -141,7 +145,7 @@ img {
 	padding-bottom: 40px;
 }
 
-.section5::after {content: "";display: block;width: 100%;height: 50%;background: url('./images/12.png');position: absolute;bottom: 0;background-size: cover;z-index: -1;}
+.section5::after {content: "";display: block;width: 100%;height: 50%;background: url('./images/12.png');position: absolute;bottom: 0;background-size: 100% 100%;z-index: -1;}
 
 .contentstatus {
 	display: flex;
@@ -251,4 +255,176 @@ img.voiceOver {
 }
 body.homePageTemplate {
     overflow-x: hidden !important;
+}
+.section7 {
+    padding: 100px 0px;
+    background: #FCFCFC;
+    text-align: center;
+}
+
+.section7InnerContainer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section7InnerContainer h2 {
+    font-size: 42px;
+    font-family: ModernistB;
+    margin-bottom: 20px;
+}
+
+.section7InnerContainer p {
+    font-family: ModernistR;
+    max-width: 800px;
+    margin: 0px auto 50px;
+}
+.boxCOntainerconti {
+    background-size: 100% 100%;
+    padding: 40px 0px 10px;
+}
+
+.section7InnerContainer .row {
+    max-width: 1200px;
+}
+.imageContainerBoxsi img {
+    max-width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.buttonContainer span {
+    display: block;
+}
+
+.buttonContainer button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+    width: 100%;
+    height: 45px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: ModernistR;
+    border-radius: 5px;
+    margin: 20px 0px 0px;
+}
+
+.innerCBOXcontainer {
+    color: #fff;
+    font-family: ModernistR;
+}
+
+.innerCBOXcontainer h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: normal;
+}
+
+.innerCBOXcontainer p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.innerCBOXcontainer {
+    background: #ffffff17;
+    max-width: 90%;
+    margin: auto;
+    padding: 20px 20px;
+    border-radius: 8px;
+}
+
+.innerCBOXcontainer li {
+    border-bottom: 1px solid #ffffff45;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    max-width: max-content;
+    margin: auto;
+    padding: 10px 22px;
+}
+
+.buttonContainer {
+    margin: 50px 0px 0px;
+}
+.section7boxrwos .col-md-4:nth-child(odd) {
+    margin: 80px 0px 0px;
+}
+footer {
+    background: url('./images/12.png');
+    background-size: 100% 100%;
+    padding: 140px 0px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+.contentFooter p {
+    margin-bottom: 60px;
+    font-size: 24px;
+    font-family: ModernistR;
+    /* font-family: ModernistB; */
+}
+
+.contentFooter p span {
+    font-family: ModernistB;
+}
+
+.copyRIghts .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyRIghts ul {
+    display: flex;
+    align-items: center;
+}
+
+.copyRIghts a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.copyRIghts p {
+    opacity: 0.6;
+}
+
+.copyRIghts {
+    border-top: 1px solid #ffffff38;
+    padding: 10px 0px 10px;
+    margin: 40px 0px 0px;
+}
+
+.copyRIghts .container {
+    max-width: 1440px;
+}
+footer {
+    position: relative;
+}
+
+.upTop {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    top: -50px;
+    background: #DC3F5E;
+}
+.section2 {
+    padding: 100px 0px;
 }

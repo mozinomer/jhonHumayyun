@@ -1,0 +1,177 @@
+@media only screen and (max-width: 1240px) {
+	.containers {
+		padding-left: 20px;
+	}
+
+	.imageWrapperCOntainerSection3 {
+		display: flex;
+		align-items: center;
+	}
+
+	.section4 .imageWrapperCOntainerSection3 img {
+		width: 70%;
+	}
+
+	.boxCOntainerSection1 p {
+		font-size: 11px;
+		line-height: normal;
+	}
+
+	.boxCOntainerSection1 img {
+		width: 60px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.innerContainerBanner h2 {
+		font-size: 25px;
+		line-height: normal;
+	}
+
+	.contentstatus img {
+		max-width: 100%;
+		width: 120px;
+	}
+
+	.section2 {
+		padding: 20px 0px;
+	}
+
+	.leftBOxContainerSection2 .row .col-md-6:nth-child(2) {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		max-width: 100%;
+		width: 100%;
+		flex: 0 100%;
+		padding: 0px;
+	}
+
+	.leftBOxContainerSection2 {
+		padding: 0px 0px;
+	}
+
+	.boxCOntainerSection1 {
+		max-width: 90%;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+
+	.leftBOxContainerSection2 .row .col-md-6:nth-child(2) .boxCOntainerSection1 {
+		max-width: 47%;
+	}
+
+	.boxCOntainerSection1 h3 {
+		font-size: 15px;
+		font-weight: 900;
+	}
+
+	.exploreYourworld h2 {
+		font-size: 22px;
+		font-weight: 700;
+	}
+
+	.exploreYourworld p {
+		font-size: 13px;
+		line-height: 19px;
+	}
+
+	.imageWrapperCOntainerSection3 {
+		/* position: absolute; */
+		/* top: 0; */
+		min-height: auto;
+		background-size: contain;
+		margin: 20px 20px;
+	}
+
+	.section3 {
+		position: relative;
+	}
+
+	.imageWrapperCOntainerSection3 img {
+		max-width: 100%;
+		margin: 20px 0px;
+	}
+
+	.containers {
+		padding: 0px;
+	}
+
+	.section5::after {
+		height: 68%;
+	}
+
+	.contentSection5 h3 {
+		font-size: 22px;
+		font-weight: 900;
+	}
+
+	.contentSection5 p {
+		line-height: 18px;
+		font-size: 13px;
+	}
+
+	.section6 {
+		padding: 20px 0px;
+	}
+
+	.section6 .container {
+		padding: 0px;
+	}
+
+	.imagevoiceWrapper {
+		margin: 20px 20px;
+	}
+
+	.exploreYourworld {
+		padding: 0px;
+	}
+
+	.section7 {padding: 0px 0px;}
+
+	.section7InnerContainer h2 {
+		font-size: 22px;
+		font-weight: 900;
+	}
+
+	.section7InnerContainer p {
+		font-size: 13px;
+		line-height: 22px;
+		margin-bottom: 0px;
+	}
+
+	.boxCOntainerconti {
+		margin-bottom: 20px;
+	}
+
+	footer {
+		margin-top: 100px;
+	}
+
+	.upTop {
+		width: 60px;
+		height: 60px;
+		top: -30px;
+	}
+
+	footer {}
+
+	footer {
+		padding-top: 60px;
+	}
+
+	.copyRIghts .container {
+		display: block;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.copyRIghts .container ul {
+		justify-content: center;
+		margin: 10px 0px 0px;
+	}
+
+	.copyRIghts .container {
+		font-size: 13px;
+		line-height: normal;
+	}
+}
