@@ -309,7 +309,31 @@ section.email-sec {
 .innerSectionLImeMixer .col-md-6 {
     padding: 0px;
 }
+.col-md-4 .imageBackgroudn h4 {
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    padding: 14px;
+}
+.innerNwe {
+    position: absolute;
+    z-index: 9;
+    bottom: 20px;
+    left: 20px;
+}
 
+.innerNwe h5 {
+    font-weight: 200 !important;
+    font-style: italic;
+    margin: 10px 0px 0px;
+}
+.innerSectionLImeMixerss .col-md-12, .innerSectionLImeMixerss .col-md-4 {
+    margin-bottom: 20px;
+}
+.innerSectionLImeMixerss h2 {
+    text-align: center;
+    margin: 40px 0px;
+}
 
 
 
